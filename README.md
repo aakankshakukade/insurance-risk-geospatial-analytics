@@ -4,7 +4,7 @@
 
 This project analyzes the potential financial exposure of KDC Property Insurance due to Hurricane Ian (2022).
 Using property location data and NOAA hurricane wind probability shapefiles, we identify insured properties with a **greater than 60% probability of experiencing hurricane-force winds** and estimate the **maximum financial exposure** if these properties were completely destroyed.
-The analysis integrates **GIS spatial analysis, insurance exposure calculations, and data visualization using Tableau.**
+The analysis integrates **GIS spatial analysis, insurance exposure calculations, and data visualization using PowerBI.**
 
 ---
 ## Objectives
@@ -88,7 +88,7 @@ Example dashboard:
 * Pandas
 * GeoPandas
 * Shapely
-* Tableau
+* PowerBI
 * GIS Spatial Analysis
 
 ---
@@ -98,7 +98,7 @@ Example dashboard:
 ```
 data/         -> original datasets & cleaned datasets used for analysis
 notebooks/    -> Jupyter analysis notebooks
-powerbi/      -> Tableau dashboards and visualization screenshots 
+powerbi/      -> PowerBI dashboards and visualization screenshots 
 ```
 
 ---
